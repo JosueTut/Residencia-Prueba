@@ -1,4 +1,8 @@
 import Edificio from '../components/edificio';
+import Checkbox from '../components/checkbox';
+import Fieldset from '../components/fieldset';
+import Comboboxx from '../components/combobox';
+import Buttonn from '../components/button';
 
 function App() {
 
@@ -7,21 +11,13 @@ function App() {
   }
 
   return (
-    <>
-      <p className="h-20 p-6 text-blue-800 text-center text-2xl font-bold">Edificios en el Instituto Tecnológico de Cancún</p>
-      
-      <div className='h-3/4 flex flex-col items-center justify-center'>
-        <Edificio />
+    <> 
+      <div className='py-20 bg-stone-950 h-full flex flex-col items-center justify-center'>
 
         <Edificio />
 
-        <Edificio />
+        <Fieldset />
 
-        <Edificio />
-
-        <Edificio />
-
-        <Edificio />
       </div>
     </>
   )

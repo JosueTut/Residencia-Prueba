@@ -1,3 +1,5 @@
+import { Button } from "@headlessui/react";
+import Buttonn from "./button";
 
 function Edificio() {
 
@@ -6,11 +8,13 @@ function Edificio() {
     }
 
     return (
-        <>
-            <div onClick={handleClick} className='bg-blue-200 w-3/4 size-32 p-6 my-8 text-center items-center justify-center flex rounded-lg border-1 border-blue-400 hover:bg-blue-300 cursor-pointer shadow-2xl/30'>
-                Edificio 1
-            </div>
-        </>
+        <div className="w-3/4 text-center my-10 space-y-6 rounded-xl bg-white/5 p-5">
+            <Buttonn />
+            <Buttonn />
+            <Buttonn />
+            <Buttonn />
+
+        </div>
     )
 }
 
