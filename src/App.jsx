@@ -1,8 +1,6 @@
 import Edificio from '../components/edificio';
-import Checkbox from '../components/checkbox';
 import Fieldset from '../components/fieldset';
-import Comboboxx from '../components/combobox';
-import Buttonn from '../components/button';
+import Textareaa from '../components/textarea';
 
 function App() {
 
@@ -17,6 +15,8 @@ function App() {
         <Edificio />
 
         <Fieldset />
+
+        <Textareaa />
 
       </div>
     </>
