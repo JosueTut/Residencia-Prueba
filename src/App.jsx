@@ -1,6 +1,7 @@
 import Edificio from '../components/edificio';
 import Fieldset from '../components/fieldset';
 import Textareaa from '../components/textarea';
+import { Button } from "@/components/ui/button"
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
         <Fieldset />
 
         <Textareaa />
+
+        <div className="flex min-h-svh flex-col items-center justify-center">
+          <Button>New Button</Button>
+        </div>
 
       </div>
     </>
