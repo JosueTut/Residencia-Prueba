@@ -1,13 +1,10 @@
 import Edificio from '../components/edificio';
 import Fieldset from '../components/fieldset';
 import Textareaa from '../components/textarea';
-import { Button } from "@/components/ui/button"
+import FlowbiteTable from '../components/table-flowbite';
+
 
 function App() {
-
-  const handleClick = () => {
-    window.open('https://github.com/JosueTut/Residencia-Prueba', '_blank');
-  }
 
   return (
     <> 
@@ -19,9 +16,7 @@ function App() {
 
         <Textareaa />
 
-        <div className="flex min-h-svh flex-col items-center justify-center">
-          <Button>New Button</Button>
-        </div>
+        <FlowbiteTable />
 
       </div>
     </>
