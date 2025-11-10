@@ -1,12 +1,12 @@
 import { Description, Field, Label, Textarea } from '@headlessui/react'
 import clsx from 'clsx'
 
-export default function Textareaa() {
+export default function CuadroTexto() {
   return (
-    <div className="w-full max-w-md px-4">
+    <div className="w-full max-w-md py-5">
       <Field>
-        <Label className="text-sm/6 font-medium text-white">Descripción</Label>
-        <Description className="text-sm/6 text-white/50">Escribe que opinas sobre algo.</Description>
+        <Label className="text-sm/6 font-medium text-white">Otra Razón</Label>
+        <Description className="text-sm/6 text-white/50">Explica brevemente porque no asistió el docente</Description>
         <Textarea
           className={clsx(
             'mt-3 block w-full resize-none rounded-lg border-none bg-white/5 px-3 py-1.5 text-sm/6 text-white',

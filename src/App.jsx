@@ -1,17 +1,13 @@
-import Edificio from '../components/edificio';
-import Fieldset from '../components/fieldset';
-import Pais from '../components/paises';
-import { Route, Routes } from 'react-router';
+import PaseLista from '../components/pase-lista.jsx'
 
 
 function App() {
 
   return (
     <div> 
-      <div className='py-20 bg-stone-950 h-full flex flex-col items-center justify-center'>
+      <div className='py-20 bg-blue-700 h-full flex flex-col items-center justify-center'>
 
-      <Fieldset />
-      <Pais />
+      <PaseLista />
 
       </div>
     </ div>
